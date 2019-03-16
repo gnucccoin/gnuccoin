@@ -1173,6 +1173,30 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
+    {"gnuccoin.club", "dnsseed.gnuccoin.club"},
+	{"gnuccoin.host", "dnsseed.gnuccoin.host"},
+	{"gnuccoin.icu", "dnsseed.gnuccoin.icu"},
+	{"gnuccoin.site", "dnsseed.gnuccoin.site"},
+	{"gnuccoin.space", "dnsseed.gnuccoin.space"},
+	{"gnuccoin.us", "dnsseed.gnuccoin.us"},
+	{"gnuccoin.website", "dnsseed.gnuccoin.website"},
+	{"gnuccoin.xyz", "dnsseed.gnuccoin.xyz"},
+	{"gnuccoin.fun", "dnsseed.gnuccoin.fun"},
+	{"gnuccoin.info", "dnsseed.gnuccoin.info"},
+	{"gnuccoin.agency", "dnsseed.gnuccoin.agency"},
+	{"gnuccoin.pro", "dnsseed.gnuccoin.pro"},
+	{"gnuccoin.world", "dnsseed.gnuccoin.world"},
+	{"gnuccoin.services", "dnsseed.gnuccoin.services"},
+	{"gnuccoin.rocks", "dnsseed.gnuccoin.rocks"},
+	{"gnuccoin.press", "dnsseed.gnuccoin.press"},
+	{"gnuccoin.online", "dnsseed.gnuccoin.online"},
+	{"gnuccoin.live", "dnsseed.gnuccoin.live"},
+	{"gnuccoin.life", "dnsseed.gnuccoin.life"},
+	{"gnuccoin.today", "dnsseed.gnuccoin.today"},
+	{"gnuccoin.hopto.org", "dnsseed.gnuccoin.hopto.org"},
+	{"gnuccoin.zapto.org", "dnsseed.gnuccoin.zapto.org"},
+	{"gnuccoin.sytes.net", "dnsseed.gnuccoin.sytes.net"},
+	{"gnuccoin.ddns.net", "dnsseed.gnuccoin.ddns.net"},
     {NULL, NULL}
 };
 
@@ -1225,7 +1249,7 @@ void ThreadDNSAddressSeed()
 
 unsigned int pnSeed[] =
 {
-  0x9405de5c 
+  0x458fac6b 
 };
 
 void DumpAddresses()
